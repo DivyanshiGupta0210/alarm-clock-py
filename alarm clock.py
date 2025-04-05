@@ -4,7 +4,7 @@ import pygame
 
 def set_alarm(alarm_time):
     print(f"Alarm set for {alarm_time}")
-    sound_file = "py/py practice/alarm sound.wav"
+    sound_file = " " #input audio file's path location
     is_running = True
     while is_running:
         current_time = datetime.datetime.now().strftime("%H:%M:%S")
